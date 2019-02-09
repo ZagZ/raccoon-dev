@@ -24,7 +24,7 @@ class App extends Component {
 
   componentWillMount() {
     axios
-      .get("http://54.196.43.91:3000/raccoon/feelings")
+      .get("//54.196.43.91:3000/raccoon/feelings")
       .then(res => {
         this.setState({
           feelings: res.data.feelings
